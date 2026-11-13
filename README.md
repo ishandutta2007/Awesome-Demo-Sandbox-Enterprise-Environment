@@ -1,30 +1,64 @@
-# Awesome-Demo-Sandbox-Enterprise-Environment
+<div align="center">
 
-## Top Demo & Sandbox Enterprise Environment Ecosystem
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Demo and Sandbox Enterprise Environment Banner" width="100%" />
+</p>
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
-*Focused on Ephemeral Preview Environments, Isolated Sandboxes & Demo Infrastructure*  
-**Last updated: March 2026**
+# 🚀 Awesome Demo &amp; Sandbox Enterprise Environment
 
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Demo & Sandbox Enterprise Environments**. These tools provide isolated, disposable copies of applications and their dependencies—enabling sales demos, QA testing, and feature previews without risking production data or creating conflicts between teams sharing a staging environment.
+[![Awesome](https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github)](https://github.com/ishandutta2007/Awesome-Awesome-Awesome)
+<a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/ishandutta2007/Awesome-Demo-Sandbox-Enterprise-Environment/pulls)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=flat-square)](https://github.com/ishandutta2007/Awesome-Demo-Sandbox-Enterprise-Environment/graphs/commit-activity)
+<a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
+**A definitive, SEO-optimized curated catalog of Enterprise Demo Platforms, Environments-as-a-Service (EaaS), Ephemeral Preview Infrastructure, Cloud Sandboxes, and Disposable Staging Environments.**
 
-## Table of Contents
-- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
-- [SaaS Products](#saas-products)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer](#disclaimer)
+*Accelerating Pull Request Previews ⚡ Zero Staging Conflicts 🛡️ Safe Live Sales Demos 💰 Automated Teardown &amp; Cost Control*
 
-## Sector Overview & Market Dynamics
+---
 
-The Test Environment-as-a-Service (TEaaS) and cloud sandboxing ecosystem is currently valued at ~$20B+ combined (with TEaaS at ~$17.7B and cloud sandboxing at ~$2.8B, expanding toward $50B+ by the early 2030s). The sector remains moderately fragmented—hyperscalers and mega-cap enterprise suites (Microsoft, Oracle, Salesforce) dominate native platform sandboxes, while a dynamic, highly contested cohort of specialized devtools and open-source orchestration engines (Vercel, LocalStack, Okteto, Daytona, vCluster) compete aggressively for cross-cloud ephemeral preview infrastructure and developer workflows.
+</div>
 
-## SaaS Products
+## 📑 Table of Contents
+- [📌 Overview &amp; Why Ephemeral Sandboxes?](#-overview--why-ephemeral-sandboxes)
+- [📊 Sector Overview &amp; Market Dynamics](#-sector-overview--market-dynamics)
+- [🏢 SaaS &amp; Commercial Hosted Platforms](#-saas--commercial-hosted-platforms)
+- [💻 Open-Source GitHub Projects](#-open-source-github-projects)
+- [📈 Star History](#-star-history)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support &amp; Community](#-support--community)
+- [⚠️ Disclaimer](#️-disclaimer)
+
+---
+
+## 📌 Overview &amp; Why Ephemeral Sandboxes?
+
+Traditional static staging environments are notoriously plagued by **queue bottlenecks**, **configuration drifts**, **costly idle resources**, and **data pollution**. 
+
+**Ephemeral environments** (also known as *Preview Environments*, *On-Demand Sandboxes*, or *Environments-as-a-Service / EaaS*) spin up dynamic, isolated copies of your entire application stack—including frontend, backend microservices, third-party mock services, and seeded databases—for every single Pull Request (PR) or on-demand sales demo. Once the code review is merged or the demo concludes, the environment is automatically decommissioned, saving substantial cloud expenditures while guaranteeing 100% environment fidelity.
+
+### 🌟 Key Capabilities
+- ⚡ **Instant PR Previews**: Automated URL generated on each commit for rapid product, design, and QA feedback.
+- 🧪 **Isolated Sandboxing**: Complete tenant isolation without impacting production or shared mainline environments.
+- 💰 **Automated TTL &amp; FinOps**: Enforce Time-To-Live expiration policies to stop or delete idle Kubernetes/VM clusters.
+- 🎯 **Sales Demo Reliability**: Deliver clean, deterministic demo instances tailored for prospective enterprise clients.
+
+---
+
+## 📊 Sector Overview &amp; Market Dynamics
+
+The **Test Environment-as-a-Service (TEaaS)** and cloud sandboxing ecosystem is currently valued at **~$20B+ combined** (with TEaaS at ~$17.7B and cloud sandboxing at ~$2.8B, expanding toward **$50B+ by the early 2030s** at an estimated ~16% CAGR). 
+
+The sector remains **moderately fragmented**: mega-cap enterprise suites and hyperscalers (Microsoft Dynamics, Oracle Cloud, Salesforce) capture core ERP/CRM ecosystem sandboxes, while a dynamic, highly contested cohort of specialized developer platforms and open-source orchestration engines (Vercel, LocalStack, Daytona, vCluster, Okteto, Coder) compete aggressively for cross-cloud ephemeral preview infrastructure and modern GitOps workflows.
+
+---
+
+## 🏢 SaaS &amp; Commercial Hosted Platforms
 
 | Product | Company Scale (Valuation / Revenue) | Description | Starting Price | Free Tier / Trial Limits |
-|---------|-------------------------------------|-------------|----------------|--------------------------|
+|:---|:---|:---|:---|:---|
 | **[Microsoft Business Central Preview Environments](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/administration/preview-environments)** | ~$3.1T Market Cap (~$245B Annual Revenue) | Sandbox environments on preview versions of Business Central for testing upcoming releases and configuration. | **$80/user/month** (Essentials plan, annual commitment) | **30-day free trial**; test drive full business functionality using sample data or custom tenant data without upfront credit card requirements. |
 | **[Oracle Sandboxes](https://docs.oracle.com/en/cloud/saas/applications-common/26d/oaext/overview-of-sandboxes.html)** | ~$400B Market Cap (~$53B Annual Revenue) | Isolated environments for testing enterprise configuration and extension changes without impacting mainline runtime. | **Included with Oracle Cloud Applications** (or OCI Pay As You Go from **$0.025/OCPU-hr**) | **30-day trial with $300 cloud credits** + **Always Free tier** (2 AMD Micro VMs, 4 Arm Ampere cores, 200 GB block storage, Autonomous DBs). |
 | **[Salesforce Scratch Orgs](https://developer.salesforce.com/)** | ~$280B Market Cap (~$35B Annual Revenue) | Fully configurable, disposable Salesforce environments for source-driven development, testing, and continuous integration. | **$0** (Included with Salesforce Developer Edition; Enterprise starts at **$165/user/month**) | **Free forever Developer Edition** includes active Dev Hub allocating up to **3 active scratch orgs** (6 daily creations, configurable 1–30 days lifespan, 200 MB data / 50 MB file limit). |
@@ -35,10 +69,14 @@ The Test Environment-as-a-Service (TEaaS) and cloud sandboxing ecosystem is curr
 | **[Bunnyshell](https://www.bunnyshell.com/)** | ~$20M–$30M Valuation (~$11.5M Total Funding) | Ephemeral environments platform automating Kubernetes-native preview infrastructure, staging environments, and customer demos. | **$0.07/minute** (~$4.20/active hour) pay-as-you-go per active environment on Startup tier (no fixed monthly seat fee) | **14-day free trial** with full platform features and environment orchestration; billing automatically pauses when environments are stopped. |
 | **[Uffizzi](https://www.uffizzi.com/)** | ~$10M–$15M Valuation (~$2.8M Total Funding) | Full-stack ephemeral environment control plane provisioning preview environments per PR with custom domain routing and dependencies. | **$20/month** (Starter / Pro baseline tier) | **Free forever tier** supporting up to **2 concurrent ephemeral environments** (ideal for open-source and indie developers) + **14-day free trial** for Business tiers. |
 
-## Open-Source GitHub Projects
+---
+
+## 💻 Open-Source GitHub Projects
+
+*Ranked by GitHub popularity (descending):*
 
 | Project | Star Badge | Description |
-|---------|------------|-------------|
+|:---|:---|:---|
 | **[Daytona](https://github.com/daytonaio/daytona)** | [![Stars](https://img.shields.io/github/stars/daytonaio/daytona?style=social&color=white)](https://github.com/daytonaio/daytona/stargazers) | Open-source development environment manager and sandbox orchestrator. Automatically provisions standardized, isolated remote development workspaces and ephemeral environments on any infrastructure (Docker, Kubernetes, cloud VMs) with a single CLI command. |
 | **[LocalStack](https://github.com/localstack/localstack)** | [![Stars](https://img.shields.io/github/stars/localstack/localstack?style=social&color=white)](https://github.com/localstack/localstack/stargazers) | A fully functional local AWS cloud stack. Develop and test your cloud & serverless apps offline, spinning up disposable AWS sandbox services locally without incurring cloud bills. |
 | **[Coder](https://github.com/coder/coder)** | [![Stars](https://img.shields.io/github/stars/coder/coder?style=social&color=white)](https://github.com/coder/coder/stargazers) | Open-source cloud development environment (CDE) platform provisioned via Terraform. Deploys reproducible, secure developer workspaces and demo sandboxes on any Kubernetes cluster, VM, or public cloud. |
@@ -56,22 +94,46 @@ The Test Environment-as-a-Service (TEaaS) and cloud sandboxing ecosystem is curr
 | **[MavMeta](https://github.com/Syntax-Syllogism/MavMeta)** | [![Stars](https://img.shields.io/github/stars/Syntax-Syllogism/MavMeta?style=social&color=white)](https://github.com/Syntax-Syllogism/MavMeta/stargazers) | Salesforce administrator & developer GUI providing guided scratch org and sandbox management directly on localhost without cloud credential persistence. |
 | **[scratchpool](https://github.com/Tbristo01/scratchpool)** | [![Stars](https://img.shields.io/github/stars/Tbristo01/scratchpool?style=social&color=white)](https://github.com/Tbristo01/scratchpool/stargazers) | Self-refilling pool of warm Salesforce scratch orgs for instant ~2-second claims from CLI or AI coding agents. |
 
-## How to Contribute
+---
 
-1. Fork the repo.
-2. Add/edit entries in `README.md` (follow existing format).
-3. Include: name, link, specific pricing, company scale / star count, and 1–2 sentence description.
-4. Submit PR with a short explanation.
+## 📈 Star History
 
-Star the repo if you find it useful!
-
-## Disclaimer
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-- Demo and sandbox environments often contain production-like data or credentials; enforce strict data anonymization, network isolation, and automatic teardown policies.
-- Ephemeral environments require careful cost governance and TTL policies to prevent orphaned infrastructure expenses across cloud providers.
+[![Star History Chart](https://www.star-history.com/svg?repos=ishandutta2007/Awesome-Demo-Sandbox-Enterprise-Environment&type=date&legend=top-left)](https://www.star-history.com/#ishandutta2007/Awesome-Demo-Sandbox-Enterprise-Environment&type=date&legend=top-left)
 
 ---
 
-**Made for sales engineers, QA teams, platform engineers, and developers building demo and sandbox infrastructure.**  
-Let's make enterprise demo and sandbox environments more open, ephemeral, and cost-predictable.
+## 🤝 How to Contribute
+
+Contributions are warmly welcome! If you know of an awesome ephemeral preview environment tool or open-source sandbox platform:
+
+1. 🍴 **Fork the repository**.
+2. 🌿 **Create a feature branch** (`git checkout -b feature/add-new-sandbox-platform`).
+3. 📝 **Add or edit entries in `README.md`** following the existing tabular structure (include specific starting pricing, free tier / trial terms, star count badge, and clear technical descriptions).
+4. ✨ **Commit your changes** (`git commit -m 'feat: add NewSandboxPlatform'`).
+5. 🚀 **Push to the branch** (`git push origin feature/add-new-sandbox-platform`).
+6. 📬 **Open a Pull Request** with a brief summary of the project.
+
+---
+
+## 💖 Support & Community
+
+If you find this curated collection useful, please consider supporting the project:
+
+- ⭐ **Star this repository** to help others discover it!
+- 🍴 **Fork & share** with your DevOps, Platform Engineering, and QA teams.
+- 💬 **Join our community on Discord** to discuss ephemeral environments and cloud sandboxing.
+- ☕ **Buy me a coffee / Sponsor the project**: Support maintenance and continuous updates on GitHub Sponsors:
+
+<p align="left">
+  <a href="https://github.com/sponsors/ishandutta2007">
+    <img src="https://img.shields.io/badge/Sponsor-%E2%9D%A4-pink?style=for-the-badge&logo=github-sponsors" alt="Sponsor on GitHub" />
+  </a>
+</p>
+
+---
+
+## ⚠️ Disclaimer
+
+- This is a **community-curated** list — provided for informational and architectural evaluation purposes.
+- Demo and sandbox environments frequently handle production-like schemas or synthetic customer data; always ensure stringent data masking, credential isolation, and automated teardown mechanisms.
+- Ephemeral environments require disciplined lifecycle governance (time-to-live expiration) to avoid unexpected cloud infrastructure costs.

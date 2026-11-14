@@ -75,7 +75,7 @@ The sector remains **moderately fragmented**: mega-cap enterprise suites and hyp
 
 *Ranked by GitHub popularity (descending):*
 
-| Project | Star Badge | Description |
+| Project | Stars_Badge | Description |
 |:---|:---|:---|
 | **[Daytona](https://github.com/daytonaio/daytona)** | [![Stars](https://img.shields.io/github/stars/daytonaio/daytona?style=social&color=white)](https://github.com/daytonaio/daytona/stargazers) | Open-source development environment manager and sandbox orchestrator. Automatically provisions standardized, isolated remote development workspaces and ephemeral environments on any infrastructure (Docker, Kubernetes, cloud VMs) with a single CLI command. |
 | **[LocalStack](https://github.com/localstack/localstack)** | [![Stars](https://img.shields.io/github/stars/localstack/localstack?style=social&color=white)](https://github.com/localstack/localstack/stargazers) | A fully functional local AWS cloud stack. Develop and test your cloud & serverless apps offline, spinning up disposable AWS sandbox services locally without incurring cloud bills. |
@@ -108,7 +108,7 @@ Contributions are warmly welcome! If you know of an awesome ephemeral preview en
 
 1. 🍴 **Fork the repository**.
 2. 🌿 **Create a feature branch** (`git checkout -b feature/add-new-sandbox-platform`).
-3. 📝 **Add or edit entries in `README.md`** following the existing tabular structure (include specific starting pricing, free tier / trial terms, star count badge, and clear technical descriptions).
+3. 📝 **Add or edit entries in `README.md`** following the existing tabular structure (include specific starting pricing, free tier / trial terms, Stars_Count badge, and clear technical descriptions).
 4. ✨ **Commit your changes** (`git commit -m 'feat: add NewSandboxPlatform'`).
 5. 🚀 **Push to the branch** (`git push origin feature/add-new-sandbox-platform`).
 6. 📬 **Open a Pull Request** with a brief summary of the project.
